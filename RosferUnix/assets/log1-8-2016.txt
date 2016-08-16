@@ -1,0 +1,48 @@
+javax.swing.JLabel[,120,135,75x30,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@7de26db8,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=assets/login.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+server address is 10.0.4.7:1123
+trying to login...
+Logged in from server
+update file updated
+false
+Localstub Proxy[Adder,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[10.0.4.7:1123](remote),objID:[-3ad1c2ae:15630504036:-7fff, 3441072531239930250]]]]]
+shutdown hook
+javax.swing.JLabel[,120,135,75x30,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1175e2db,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=assets/login.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+server address is 10.0.4.7:1123
+trying to login...
+Logged in from server
+update file updated
+false
+javax.swing.JLabel[,190,10,15x15,disabled,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=assets/image4.png,disabledIcon=sun.swing.ImageIconUIResource@3bcaf6af,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+Top Bounds Initial ===========>java.awt.Rectangle[x=0,y=0,width=200,height=150]
+maximize called
+value changed to Idle New (IN001)
+1
+Combobox Item State Changed
+HTML
+JS
+Design
+Delay From Client
+No Work
+CMS
+ECommerce
+CorePHP
+Drupal
+PC Team
+Support
+Training
+IT Team
+Meeting
+Email check
+Handover
+maximize called
+javax.swing.JLabel[,75,110,44x18,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=assets/done_down.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+project id: 5485 
+taskid:  82
+ task_list id: 36
+task Text Select a Reason 
+subtask_text: HTML
+project TL Id :489
+project Team Id :489
+Top Bounds Initial ===========>java.awt.Rectangle[x=0,y=0,width=200,height=150]
+Localstub Proxy[Adder,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[10.0.4.7:1123](remote),objID:[-3ad1c2ae:15630504036:-7fff, 3441072531239930250]]]]]
+shutdown hook

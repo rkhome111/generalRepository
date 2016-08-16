@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="demo.Screenshot" table="ac_tracker_screenshot_current">
+      <meta attribute="class-description">
+         This class contains the employee detail. 
+      </meta>
+      <id name="id" type="int" column="id">
+         <generator class="native"/>
+      </id>
+      <property name="user_id" column="user_id" type="int"/>
+      <property name="project_id" column="project_id" type="int"/>
+      <property name="task_list_id" column="task_list_id" type="int"/>
+      <property name="task_id" column="task_id" type="int"/>
+      <property name="created_by_id" column="created_by_id" type="int"/>
+      <property name="updated_by_id" column="updated_by_id" type="int"/>
+      <property name="verified_by_id" column="verified_by_id" type="int"/>
+      <property name="record_status" column="record_status" type="int"/>
+      <property name="status" column="status" type="string"/>
+       <property name="version" column="version" type="string"/>
+      <property name="work_status" column="work_status" type="int"/>
+      <property name="work_seconds" column="work_seconds" type="int"/>
+      <property name="tl_id" column="tl_id" type="int"/>
+      
+      
+      
+      <property name="reference_id" column="reference_id" type="string"/>
+      <property name="task_text" column="task_text" type="string"/>
+      <property name="description" column="description" type="string"/>
+      <property name="comment" column="comment" type="string"/>
+      <property name="sys_name" column="sys_name" type="string"/>
+      <property name="time_slot" column="time_slot" type="string"/>
+      <property name="actual_created_on" column="actual_created_on" type="string"/>
+      <property name="created_on" column="created_on" type="string"/>
+      <property name="updated_on" column="updated_on" type="string"/>
+      <property name="verified_on" column="verified_on" type="string"/>
+      <property name="work_date" column="work_date" type="string"/>
+      
+      
+   </class>
+
+   <class name="demo.ScreenshotImage" table="ac_tracker_screenshot_images_current">
+      <meta attribute="class-description">
+         This class contains the employee Image detail. 
+      </meta>
+      <id name="id" type="int" column="id">
+         <generator class="native"/>
+      </id>
+      <property name="reference_id" column="reference_id" type="string"/>
+      <property name="actual_created_on" column="actual_created_on" type="string"/>
+      <property name="created_on" column="created_on" type="string"/>
+      <property name="image_name" column="image_name" type="string"/>
+      
+    </class>
+    
+    <class name="demo.Images" table="images">
+      <meta attribute="class-description">
+         This class contains the employee Image. 
+      </meta>
+      <id name="id" type="int" column="id">
+         <generator class="native"/>
+      </id>
+      <property name="reference_id" column="reference_id" type="string"/>
+      <property name="image_name" column="image_name" type="string"/>
+      <property name="folder_name" column="folder_name" type="string"/>
+      <property name="image_content" column="image_content" type="binary"/>
+      
+
+    
+    </class>
+
+
+</hibernate-mapping>

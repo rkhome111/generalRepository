@@ -1,0 +1,8 @@
+javax.swing.JLabel[,120,135,75x30,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@7de26db8,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=assets/login.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+server address is 10.0.4.7:1123
+trying to login...
+Logged in from server
+update file updated
+false
+Localstub Proxy[Adder,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[10.0.4.7:1123](remote),objID:[-1fbf2f8c:1562fbe677d:-7fff, -6165864415510338820]]]]]
+shutdown hook
